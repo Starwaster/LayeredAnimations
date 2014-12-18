@@ -13,17 +13,17 @@ SOLUTION: If Porkjet replaces his animation modules with the following code, eve
 
 MODULE
 {
-	name = ModuleLayeredAnimations
-	animationName = deploy
-	startEventGUIName = Deploy
-	endEventGUIName = Retract
-	layer = 1
+    name = ModuleLayeredAnimations
+    animationName = deploy
+    startEventGUIName = Deploy
+    endEventGUIName = Retract
+    layer = 1
 }
 MODULE
 {
-	name = ModuleLayeredAnimations
-	animationName = rotation
-	startEventGUIName = Spin
-	endEventGUIName = Reverse
-	layer = 2
+    name = ModuleLayeredAnimations
+    animationName = rotation
+    startEventGUIName = Spin
+    endEventGUIName = Reverse
+    layer = 2
 }

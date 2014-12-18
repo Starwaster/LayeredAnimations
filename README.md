@@ -10,6 +10,21 @@ Example: Porkjet's Centrifuge habitat does not work properly because playing one
 This is bad if you start the habitat spinning because then it deflates and Kerbals cannot board and eat snacks.
 
 SOLUTION: If Porkjet replaces his animation modules with the following code, everything works! Hurray!
-
+```
 MODULE
 {
+    name = ModuleLayeredAnimations
+    animationName = deploy
+    startEventGUIName = Deploy
+    endEventGUIName = Retract
+    layer = 1
+}
+MODULE
+{
+    name = ModuleLayeredAnimations
+    animationName = rotation
+    startEventGUIName = Spin
+    endEventGUIName = Reverse
+    layer = 2
+}
+```

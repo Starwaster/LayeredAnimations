@@ -5,6 +5,7 @@ Adds layers to KSP's ModuleAnimateGeneric
 
 When to use:
 If you have multiple animations on a single part, give each one a unique layer ID.
+
 (note: KSP 1.0.5 now supports layers in animations natively. Simply add layer = <layer #> to any KSP animation module such as ModuleAnimateGeneric just as you would with LayeredAnimations)
 
 Example: Porkjet's Centrifuge habitat does not work properly because playing one animation cancels another.
